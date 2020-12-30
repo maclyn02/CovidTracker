@@ -1,0 +1,25 @@
+.infoTab {
+    margin-bottom: 20px;
+}
+
+.infoTab--selected {
+    border-left: 10px solid rgb(81, 121, 81);
+}
+
+.infoTab__cases {
+    color: red;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.infoTab__Recovered {
+    color: rgb(55, 121, 49) !important;
+}
+
+.infoTab__Deaths {
+    color: rgb(241, 61, 48) !important;
+}
+
+.infoTab__Cases {
+    color: rgb(250, 226, 8) !important;
+}
