@@ -1,0 +1,28 @@
+/* table { 
+    border-collapse:collapse;
+} */
+
+.table {
+    overflow: scroll; 
+    height: 350px;
+    width: 100%;
+}
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    padding: 5px;
+    font-size: 12px;
+}
+
+th {
+    text-align: left;
+    font-size: 13px;
+}
+
+.table tr:nth-of-type(even) {
+    background-color: rgb(245, 245, 245);
+}
