@@ -1,0 +1,14 @@
+.leaflet-container{
+    height: 450px;
+}
+
+.map__popup img{
+    height: 45px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.map__popup {
+    display: flex;
+    flex-direction: column;
+}
